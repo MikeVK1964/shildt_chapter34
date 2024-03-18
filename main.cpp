@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     for (auto i=0;i<3;i++) qDebug()<< v1[i];
     qDebug() << "----------------";
     ////vector<int> *p;
-    auto p=v1.begin();
+//    auto p=v1.begin();
     auto ss=adjacent_find(v1.begin(),v1.end());
     auto ss1=min_element(v1.begin(),v1.end());
     qDebug()<<*ss1;
